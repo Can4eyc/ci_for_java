@@ -1,0 +1,14 @@
+/home/alex/git_tests/dofd-05-java-Can4eyc/src/main/java/softserve/academy/simplecrud/model/response/ProductUpdated.java
+/home/alex/git_tests/dofd-05-java-Can4eyc/src/main/java/softserve/academy/simplecrud/model/response/ProductDeleted.java
+/home/alex/git_tests/dofd-05-java-Can4eyc/src/main/java/softserve/academy/simplecrud/controller/ProductController.java
+/home/alex/git_tests/dofd-05-java-Can4eyc/src/main/java/softserve/academy/simplecrud/model/request/PatchProduct.java
+/home/alex/git_tests/dofd-05-java-Can4eyc/src/main/java/softserve/academy/simplecrud/controller/advice/ErrorController.java
+/home/alex/git_tests/dofd-05-java-Can4eyc/src/main/java/softserve/academy/simplecrud/model/entity/Product.java
+/home/alex/git_tests/dofd-05-java-Can4eyc/src/main/java/softserve/academy/simplecrud/SimplecrudApplication.java
+/home/alex/git_tests/dofd-05-java-Can4eyc/src/main/java/softserve/academy/simplecrud/model/request/NewProduct.java
+/home/alex/git_tests/dofd-05-java-Can4eyc/src/main/java/softserve/academy/simplecrud/config/AppConfig.java
+/home/alex/git_tests/dofd-05-java-Can4eyc/src/main/java/softserve/academy/simplecrud/model/response/ProductDto.java
+/home/alex/git_tests/dofd-05-java-Can4eyc/src/main/java/softserve/academy/simplecrud/service/ProductService.java
+/home/alex/git_tests/dofd-05-java-Can4eyc/src/main/java/softserve/academy/simplecrud/repository/ProductRepository.java
+/home/alex/git_tests/dofd-05-java-Can4eyc/src/main/java/softserve/academy/simplecrud/model/response/ProductCreated.java
+/home/alex/git_tests/dofd-05-java-Can4eyc/src/main/java/softserve/academy/simplecrud/exception/ProductNotFoundException.java

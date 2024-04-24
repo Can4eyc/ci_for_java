@@ -1,0 +1,45 @@
+2024-04-15T22:20:09.207Z  INFO 12342 --- [main] s.a.s.SimplecrudApplicationTests         : Starting SimplecrudApplicationTests using Java 17.0.10 with PID 12342 (started by alex in /home/alex/git_tests/dofd-05-java-Can4eyc)
+2024-04-15T22:20:09.211Z  INFO 12342 --- [main] s.a.s.SimplecrudApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-04-15T22:20:10.994Z  INFO 12342 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-15T22:20:11.104Z  INFO 12342 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interfaces.
+2024-04-15T22:20:12.047Z  INFO 12342 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-15T22:20:12.116Z  INFO 12342 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-04-15T22:20:12.651Z  INFO 12342 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-15T22:20:12.942Z  INFO 12342 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./productsDB user=SA
+2024-04-15T22:20:12.945Z  INFO 12342 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-15T22:20:12.987Z  INFO 12342 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-04-15T22:20:13.818Z  INFO 12342 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-15T22:20:13.828Z  INFO 12342 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-15T22:20:15.404Z  INFO 12342 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:./productsDB'
+2024-04-15T22:20:15.508Z  INFO 12342 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-04-15T22:20:15.693Z  INFO 12342 --- [main] s.a.s.SimplecrudApplicationTests         : Started SimplecrudApplicationTests in 7.006 seconds (process running for 9.07)
+2024-04-15T22:20:16.183Z  INFO 12342 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-15T22:20:16.189Z  INFO 12342 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-15T22:20:16.202Z  INFO 12342 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-15T22:20:59.027Z  INFO 12419 --- [main] s.a.simplecrud.SimplecrudApplication     : Starting SimplecrudApplication v0.0.1-SNAPSHOT using Java 17.0.10 with PID 12419 (/home/alex/git_tests/dofd-05-java-Can4eyc/target/simplecrud-0.0.1-SNAPSHOT.jar started by alex in /home/alex/git_tests/dofd-05-java-Can4eyc)
+2024-04-15T22:20:59.035Z  INFO 12419 --- [main] s.a.simplecrud.SimplecrudApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-04-15T22:21:01.395Z  INFO 12419 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-15T22:21:01.489Z  INFO 12419 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+2024-04-15T22:21:02.592Z  INFO 12419 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-04-15T22:21:02.613Z  INFO 12419 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-15T22:21:02.615Z  INFO 12419 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2024-04-15T22:21:02.749Z  INFO 12419 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-15T22:21:02.751Z  INFO 12419 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3580 ms
+2024-04-15T22:21:02.931Z  INFO 12419 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-15T22:21:03.396Z  INFO 12419 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./productsDB user=SA
+2024-04-15T22:21:03.402Z  INFO 12419 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-15T22:21:03.421Z  INFO 12419 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:./productsDB'
+2024-04-15T22:21:03.699Z  INFO 12419 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-15T22:21:03.769Z  INFO 12419 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-04-15T22:21:04.248Z  INFO 12419 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-04-15T22:21:05.273Z  INFO 12419 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-15T22:21:05.286Z  INFO 12419 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-15T22:21:07.227Z  INFO 12419 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-04-15T22:21:07.368Z  INFO 12419 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-15T22:21:07.395Z  INFO 12419 --- [main] s.a.simplecrud.SimplecrudApplication     : Started SimplecrudApplication in 9.4 seconds (process running for 10.316)
+2024-04-15T22:21:56.762Z  INFO 12419 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-15T22:21:56.763Z  INFO 12419 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-15T22:21:56.765Z  INFO 12419 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-15T22:32:23.270Z  INFO 12419 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-15T22:32:23.278Z  INFO 12419 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-15T22:32:23.284Z  INFO 12419 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
