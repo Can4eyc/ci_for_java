@@ -1,6 +1,8 @@
 name: CI for Java
 on:
   push:
+  pull_requests:
+    types: [opened, synchronize]
   workflow_dispatch:
 jobs:
   set_env:
