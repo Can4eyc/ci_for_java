@@ -75,4 +75,4 @@ http://localhost:8080/actuator/logfile
 
 ## Added GithubActions worflow
 
-On push or pull actions will be done Test of this project
+On push or pull actions will be done Build and Test of this project
